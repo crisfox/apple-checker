@@ -295,7 +295,7 @@
   <button class="filter-btn active" onclick="setFilter('soon')" id="f-soon">Hoy o mañana</button>
   <button class="filter-btn" onclick="setFilter('available')" id="f-available">Todos disponibles</button>
   <button class="filter-btn" onclick="setFilter('all')" id="f-all">Ver todo</button>
-  <button class="run-btn" id="run-btn" onclick="triggerRun()">↻ Actualizar</button>
+  <a class="run-btn" href="https://github.com/crisfox/apple-checker/actions/workflows/check.yml" target="_blank">↻ Ejecutar</a>
 </div>
 
 <div id="root"><div class="loading">Cargando disponibilidad...</div></div>
@@ -472,34 +472,6 @@ async function load() {
   }
 }
 
-async function triggerRun() {
-  const btn = document.getElementById("run-btn");
-  btn.disabled = true;
-  btn.textContent = "Ejecutando...";
-  try {
-    const resp = await fetch(
-      "https://api.github.com/repos/crisfox/apple-checker/actions/workflows/check.yml/dispatches",
-      {
-        method: "POST",
-        headers: {
-          "Authorization": "Bearer " + atob("Z2l0aHViX3BhdF8xMUFGSlNWUlEwY3JGV1ppZWhDOVFZX2V4ZFV1QWVqbDRibktkNGh0VWdjdjlMWXEyTGkzeXVpNkpqam0zZ3N0TG5FTlg1R05XSVJBaGwybmRt"),
-          "Accept": "application/vnd.github+json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ ref: "main" }),
-      }
-    );
-    if (resp.status === 204) {
-      btn.textContent = "✓ Lanzado";
-      setTimeout(() => { load(); btn.disabled = false; btn.textContent = "↻ Actualizar"; }, 12000);
-    } else {
-      throw new Error("status " + resp.status);
-    }
-  } catch (e) {
-    btn.textContent = "Error";
-    setTimeout(() => { btn.disabled = false; btn.textContent = "↻ Actualizar"; }, 3000);
-  }
-}
 
 load();
 setInterval(load, 5 * 60 * 1000);
