@@ -113,7 +113,7 @@
   },
   "Dadeland|MFXJ4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Dadeland|MFXH4LL/A": {
     "status": "unavailable",
@@ -129,11 +129,11 @@
   },
   "Dadeland|MFXL4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Dadeland|MFXN4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Dadeland|MFXQ4LL/A": {
     "status": "unavailable",
@@ -141,7 +141,7 @@
   },
   "Dadeland|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "The Falls|MFXG4LL/A": {
     "status": "unavailable",
@@ -205,7 +205,7 @@
   },
   "Boca Raton|MFXN4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Boca Raton|MFXQ4LL/A": {
     "status": "unavailable",
@@ -213,7 +213,7 @@
   },
   "Boca Raton|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Wellington Green|MFXG4LL/A": {
     "status": "unavailable",
