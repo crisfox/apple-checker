@@ -107,6 +107,42 @@
     "status": "available",
     "quote": "Available Today"
   },
+  "Dadeland|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Dadeland|MFXJ4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Dadeland|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Dadeland|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Dadeland|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Dadeland|MFXL4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Dadeland|MFXN4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Dadeland|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Dadeland|MFXP4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
   "The Falls|MFXG4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
@@ -284,42 +320,6 @@
     "quote": "Unavailable for Pickup"
   },
   "Lincoln Road|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Dadeland|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Dadeland|MFXJ4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
-  },
-  "Dadeland|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Dadeland|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Dadeland|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Dadeland|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Dadeland|MFXN4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Dadeland|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Dadeland|MFXP4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   },
