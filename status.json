@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T03:13:09Z",
+  "last_updated": "2026-03-23T04:00:28Z",
   "stores": [
     {
       "name": "Waterside Shops",
@@ -59,7 +59,7 @@
           "part": "MFXP4LL/A",
           "model": "1TB Cosmic Orange",
           "status": "available",
-          "quote": "Available Tomorrow"
+          "quote": "Available Today"
         }
       ]
     },
@@ -109,7 +109,7 @@
           "part": "MFXN4LL/A",
           "model": "1TB Silver",
           "status": "available",
-          "quote": "Available Tomorrow"
+          "quote": "Available Today"
         },
         {
           "part": "MFXQ4LL/A",
@@ -121,7 +121,7 @@
           "part": "MFXP4LL/A",
           "model": "1TB Cosmic Orange",
           "status": "available",
-          "quote": "Available Tomorrow"
+          "quote": "Available Today"
         }
       ]
     },
