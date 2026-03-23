@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iPhone 17 Pro Max — Disponibilidad</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #1d1d1f;
+      color: #fff;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    header svg { flex-shrink: 0; }
+
+    header h1 {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+    }
+
+    header p {
+      font-size: 13px;
+      color: #a1a1a6;
+      margin-top: 2px;
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 24px;
+      background: #fff;
+      border-bottom: 1px solid #e5e5ea;
+      font-size: 13px;
+      color: #6e6e73;
+    }
+
+    .meta .dot {
+      display: inline-block;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #34c759;
+      margin-right: 6px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .summary {
+      display: flex;
+      gap: 12px;
+      padding: 16px 24px;
+      overflow-x: auto;
+    }
+
+    .summary-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 14px 20px;
+      min-width: 140px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    }
+
+    .summary-card .num {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .summary-card .num.green { color: #34c759; }
+    .summary-card .num.red   { color: #ff3b30; }
+    .summary-card .num.gray  { color: #8e8e93; }
+
+    .summary-card .label {
+      font-size: 12px;
+      color: #6e6e73;
+      margin-top: 4px;
+    }
+
+    main { padding: 0 24px 40px; }
+
+    .available-section {
+      margin-bottom: 24px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #6e6e73;
+      margin: 20px 0 10px;
+    }
+
+    .store-card {
+      background: #fff;
+      border-radius: 14px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    }
+
+    .store-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      border-bottom: 1px solid #f2f2f7;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .store-header:hover { background: #fafafa; }
+
+    .store-name {
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .store-meta {
+      font-size: 12px;
+      color: #6e6e73;
+      margin-top: 2px;
+    }
+
+    .store-badge {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    .badge-available { background: #e8f8ed; color: #1a7a35; }
+    .badge-unavailable { background: #f2f2f7; color: #8e8e93; }
+
+    .models-list {
+      display: none;
+    }
+
+    .models-list.open {
+      display: block;
+    }
+
+    .model-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      border-bottom: 1px solid #f2f2f7;
+      font-size: 14px;
+    }
+
+    .model-row:last-child { border-bottom: none; }
+
+    .model-name { font-weight: 500; }
+
+    .model-quote {
+      font-size: 12px;
+      color: #6e6e73;
+      margin-top: 2px;
+    }
+
+    .status-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-left: 12px;
+    }
+
+    .status-dot.available   { background: #34c759; }
+    .status-dot.unavailable { background: #d1d1d6; }
+
+    .chevron {
+      display: inline-block;
+      margin-left: 8px;
+      transition: transform 0.2s;
+      font-size: 11px;
+      color: #aeaeb2;
+    }
+
+    .chevron.open { transform: rotate(180deg); }
+
+    .loading {
+      text-align: center;
+      padding: 60px 24px;
+      color: #8e8e93;
+      font-size: 15px;
+    }
+
+    .error {
+      background: #fff3f3;
+      border: 1px solid #ffd0cd;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 16px 0;
+      color: #c0392b;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #aeaeb2;
+      padding: 0 24px 24px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+  </svg>
+  <div>
+    <h1>iPhone 17 Pro Max</h1>
+    <p>Disponibilidad para pickup — Miami área</p>
+  </div>
+</header>
+
+<div class="meta">
+  <span><span class="dot"></span>Actualiza cada 5 minutos</span>
+  <span id="last-updated">Cargando...</span>
+</div>
+
+<div id="root"><div class="loading">Cargando disponibilidad...</div></div>
+
+<footer>
+  Datos obtenidos directamente de Apple Store · Solo modelos 256GB / 512GB / 1TB
+</footer>
+
+<script>
+const STATUS_URL = "https://raw.githubusercontent.com/crisfox/apple-checker/main/status.json";
+
+const COLOR_MAP = {
+  "Silver": "#c0c0c0",
+  "Deep Blue": "#1a3a5c",
+  "Cosmic Orange": "#c85a00",
+};
+
+function colorDot(model) {
+  for (const [name, hex] of Object.entries(COLOR_MAP)) {
+    if (model.includes(name)) {
+      return `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${hex};margin-right:6px;vertical-align:middle;border:1px solid rgba(0,0,0,.1)"></span>`;
+    }
+  }
+  return "";
+}
+
+function formatDate(iso) {
+  const d = new Date(iso);
+  return d.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" }) +
+    " · " + d.toLocaleDateString("es-ES", { day: "numeric", month: "short" });
+}
+
+function toggleStore(id) {
+  const list = document.getElementById("models-" + id);
+  const chevron = document.getElementById("chevron-" + id);
+  list.classList.toggle("open");
+  chevron.classList.toggle("open");
+}
+
+function render(data) {
+  document.getElementById("last-updated").textContent = "Actualizado: " + formatDate(data.last_updated);
+
+  const stores = data.stores;
+  let totalAvailable = 0;
+  let totalUnavailable = 0;
+  let storesWithStock = 0;
+
+  stores.forEach(s => {
+    const avail = s.models.filter(m => m.status === "available").length;
+    if (avail > 0) storesWithStock++;
+    totalAvailable += avail;
+    totalUnavailable += s.models.filter(m => m.status !== "available").length;
+  });
+
+  const availableStores = stores.filter(s => s.models.some(m => m.status === "available"));
+  const unavailableStores = stores.filter(s => s.models.every(m => m.status !== "available"));
+
+  let html = `
+    <div class="summary">
+      <div class="summary-card">
+        <div class="num ${totalAvailable > 0 ? 'green' : 'gray'}">${totalAvailable}</div>
+        <div class="label">Modelos disponibles</div>
+      </div>
+      <div class="summary-card">
+        <div class="num ${storesWithStock > 0 ? 'green' : 'gray'}">${storesWithStock}</div>
+        <div class="label">Tiendas con stock</div>
+      </div>
+      <div class="summary-card">
+        <div class="num gray">${stores.length}</div>
+        <div class="label">Tiendas monitoreadas</div>
+      </div>
+    </div>
+    <main>
+  `;
+
+  if (availableStores.length > 0) {
+    html += `<div class="section-title">✅ Con disponibilidad</div>`;
+    availableStores.forEach((store, i) => {
+      html += renderStore(store, "avail-" + i, true);
+    });
+  }
+
+  html += `<div class="section-title">Sin stock</div>`;
+  unavailableStores.forEach((store, i) => {
+    html += renderStore(store, "unavail-" + i, false);
+  });
+
+  html += `</main>`;
+  document.getElementById("root").innerHTML = html;
+}
+
+function renderStore(store, id, defaultOpen) {
+  const available = store.models.filter(m => m.status === "available");
+  const hasStock = available.length > 0;
+  const badgeClass = hasStock ? "badge-available" : "badge-unavailable";
+  const badgeText = hasStock ? `${available.length} disponible${available.length > 1 ? "s" : ""}` : "Sin stock";
+
+  let html = `
+    <div class="store-card">
+      <div class="store-header" onclick="toggleStore('${id}')">
+        <div>
+          <div class="store-name">${store.name}</div>
+          <div class="store-meta">${store.city}, ${store.state} · ${store.distance}</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <span class="store-badge ${badgeClass}">${badgeText}</span>
+          <span class="chevron ${defaultOpen ? 'open' : ''}" id="chevron-${id}">▼</span>
+        </div>
+      </div>
+      <div class="models-list ${defaultOpen ? 'open' : ''}" id="models-${id}">
+  `;
+
+  store.models.forEach(m => {
+    const isAvail = m.status === "available";
+    html += `
+      <div class="model-row">
+        <div>
+          <div class="model-name">${colorDot(m.model)}${m.model}</div>
+          <div class="model-quote">${m.quote}</div>
+        </div>
+        <div class="status-dot ${isAvail ? 'available' : 'unavailable'}"></div>
+      </div>
+    `;
+  });
+
+  html += `</div></div>`;
+  return html;
+}
+
+async function load() {
+  try {
+    const resp = await fetch(STATUS_URL + "?t=" + Date.now());
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    const data = await resp.json();
+    render(data);
+  } catch (e) {
+    document.getElementById("root").innerHTML =
+      `<div style="padding:24px"><div class="error">Error cargando datos: ${e.message}</div></div>`;
+    document.getElementById("last-updated").textContent = "Error";
+  }
+}
+
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>

@@ -20,6 +20,7 @@ PARTS = {
 
 ZIP_CODE = "33139"
 STATE_FILE = "state.json"
+STATUS_FILE = "status.json"
 
 
 def fetch_inventory():
@@ -43,6 +44,15 @@ def load_state():
 def save_state(state):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
+
+
+def save_status(stores_data):
+    from datetime import datetime, timezone
+    with open(STATUS_FILE, "w") as f:
+        json.dump({
+            "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "stores": stores_data,
+        }, f, indent=2)
 
 
 def send_telegram(token, chat_id, message):
@@ -136,12 +146,22 @@ def main():
     state = load_state()
     new_state = {}
     changes = []
+    stores_data = []
 
     for store in stores:
         store_name = store["storeName"]
         city = store.get("city", "")
+        state_name = store.get("state", "")
         distance = store.get("storeDistanceWithUnit", "")
         parts_avail = store.get("partsAvailability", {})
+
+        store_entry = {
+            "name": store_name,
+            "city": city,
+            "state": state_name,
+            "distance": distance,
+            "models": [],
+        }
 
         for part_num, info in parts_avail.items():
             if part_num not in PARTS:
@@ -155,8 +175,14 @@ def main():
             new_state[key] = new_status
             old_status = state.get(key)
 
+            store_entry["models"].append({
+                "part": part_num,
+                "model": model,
+                "status": new_status,
+                "quote": quote,
+            })
+
             if old_status is None:
-                # Primera ejecución, solo registrar
                 if new_status == "available":
                     print(f"  [INICIAL-DISPONIBLE] {model} en {store_name} ({city}) — {quote}")
                 continue
@@ -169,6 +195,8 @@ def main():
                 status_label = "OK" if new_status == "available" else "—"
                 print(f"  [{status_label}] {model} en {store_name}: {new_status}")
 
+        stores_data.append(store_entry)
+
     if changes:
         print(f"\nEnviando {len(changes)} notificaciones...")
         notify_all(changes)
@@ -176,6 +204,7 @@ def main():
         print("\nSin cambios.")
 
     save_state(new_state)
+    save_status(stores_data)
     print("Estado guardado.")
 
 

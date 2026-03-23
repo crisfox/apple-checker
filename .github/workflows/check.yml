@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "apple-checker"
           git config user.email "bot@apple-checker"
-          git add state.json
+          git add state.json status.json
           git diff --staged --quiet || git commit -m "chore: update inventory state"
           git push
