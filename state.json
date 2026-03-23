@@ -21,7 +21,7 @@
   },
   "Miami Worldcenter|MFXL4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Miami Worldcenter|MFXN4LL/A": {
     "status": "available",
@@ -215,42 +215,6 @@
     "status": "available",
     "quote": "Available Tomorrow"
   },
-  "Wellington Green|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Wellington Green|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Wellington Green|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Wellington Green|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Wellington Green|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Wellington Green|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Wellington Green|MFXN4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Wellington Green|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Wellington Green|MFXP4LL/A": {
-    "status": "available",
-    "quote": "Available Tomorrow"
-  },
   "Waterside Shops|MFXG4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
@@ -344,8 +308,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Tomorrow"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXN4LL/A": {
     "status": "unavailable",
@@ -356,6 +320,42 @@
     "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXP4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXJ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXL4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXN4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Wellington Green|MFXP4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   },
