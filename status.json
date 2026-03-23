@@ -1,0 +1,749 @@
+{
+  "last_updated": "2026-03-23T01:30:12Z",
+  "stores": [
+    {
+      "name": "Waterside Shops",
+      "city": "Naples",
+      "state": "FL",
+      "distance": "107.73 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "available",
+          "quote": "Available Tomorrow"
+        }
+      ]
+    },
+    {
+      "name": "Coconut Point",
+      "city": "Estero",
+      "state": "FL",
+      "distance": "111.86 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "available",
+          "quote": "Available Tomorrow"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "available",
+          "quote": "Available Tomorrow"
+        }
+      ]
+    },
+    {
+      "name": "Lincoln Road",
+      "city": "Miami Beach",
+      "state": "FL",
+      "distance": "3.0 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "Miami Worldcenter",
+      "city": "Miami",
+      "state": "FL",
+      "distance": "5.62 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "Brickell City Centre",
+      "city": "Miami",
+      "state": "FL",
+      "distance": "6.37 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "Aventura",
+      "city": "Aventura",
+      "state": "FL",
+      "distance": "8.92 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "Dadeland",
+      "city": "Miami",
+      "state": "FL",
+      "distance": "15.5 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "The Falls",
+      "city": "Miami",
+      "state": "FL",
+      "distance": "18.75 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "The Galleria",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "distance": "21.15 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "Boca Raton",
+      "city": "Boca Raton",
+      "state": "FL",
+      "distance": "36.98 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "Wellington Green",
+      "city": "Wellington",
+      "state": "FL",
+      "distance": "56.68 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    },
+    {
+      "name": "The Gardens Mall",
+      "city": "Palm Beach Gardens",
+      "state": "FL",
+      "distance": "70.37 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        }
+      ]
+    }
+  ]
+}
