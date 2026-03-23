@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T11:56:10Z",
+  "last_updated": "2026-03-23T13:22:56Z",
   "stores": [
     {
       "name": "Waterside Shops",
@@ -338,8 +338,8 @@
         {
           "part": "MFXK4LL/A",
           "model": "512GB Silver",
-          "status": "available",
-          "quote": "Available Today"
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
         },
         {
           "part": "MFXM4LL/A",
