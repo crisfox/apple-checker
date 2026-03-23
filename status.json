@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T15:25:10Z",
+  "last_updated": "2026-03-23T15:30:15Z",
   "stores": [
     {
       "name": "Lincoln Road",
@@ -10,8 +10,8 @@
         {
           "part": "MFXG4LL/A",
           "model": "256GB Silver",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
+          "status": "available",
+          "quote": "Available Today"
         },
         {
           "part": "MFXJ4LL/A",
