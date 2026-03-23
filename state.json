@@ -57,11 +57,11 @@
   },
   "Brickell City Centre|MFXL4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Brickell City Centre|MFXN4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Brickell City Centre|MFXQ4LL/A": {
     "status": "unavailable",
@@ -69,7 +69,7 @@
   },
   "Brickell City Centre|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Aventura|MFXG4LL/A": {
     "status": "unavailable",
