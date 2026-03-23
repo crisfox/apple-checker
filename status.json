@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T21:45:10Z",
+  "last_updated": "2026-03-23T21:50:12Z",
   "stores": [
     {
       "name": "Miami Worldcenter",
@@ -202,8 +202,8 @@
         {
           "part": "MFXJ4LL/A",
           "model": "256GB Deep Blue",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
+          "status": "available",
+          "quote": "Available Today"
         },
         {
           "part": "MFXH4LL/A",
@@ -307,7 +307,7 @@
           "part": "MFXP4LL/A",
           "model": "1TB Cosmic Orange",
           "status": "available",
-          "quote": "Available Today"
+          "quote": "Available Tomorrow"
         }
       ]
     },
@@ -419,7 +419,7 @@
           "part": "MFXN4LL/A",
           "model": "1TB Silver",
           "status": "available",
-          "quote": "Available Today"
+          "quote": "Available Tomorrow"
         },
         {
           "part": "MFXQ4LL/A",
@@ -431,7 +431,7 @@
           "part": "MFXP4LL/A",
           "model": "1TB Cosmic Orange",
           "status": "available",
-          "quote": "Available Today"
+          "quote": "Available Tomorrow"
         }
       ]
     },
@@ -493,7 +493,7 @@
           "part": "MFXP4LL/A",
           "model": "1TB Cosmic Orange",
           "status": "available",
-          "quote": "Available Today"
+          "quote": "Available Tomorrow"
         }
       ]
     },
@@ -555,7 +555,7 @@
           "part": "MFXP4LL/A",
           "model": "1TB Cosmic Orange",
           "status": "available",
-          "quote": "Available Today"
+          "quote": "Available Tomorrow"
         }
       ]
     },
@@ -661,7 +661,7 @@
           "part": "MFXL4LL/A",
           "model": "512GB Cosmic Orange",
           "status": "available",
-          "quote": "Available Today"
+          "quote": "Available Tomorrow"
         },
         {
           "part": "MFXN4LL/A",

@@ -112,8 +112,8 @@
     "quote": "Available Today"
   },
   "Dadeland|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Today"
   },
   "Dadeland|MFXH4LL/A": {
     "status": "unavailable",
@@ -177,7 +177,7 @@
   },
   "The Falls|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Boca Raton|MFXG4LL/A": {
     "status": "unavailable",
@@ -241,7 +241,7 @@
   },
   "Wellington Green|MFXN4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Wellington Green|MFXQ4LL/A": {
     "status": "unavailable",
@@ -249,7 +249,7 @@
   },
   "Wellington Green|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "The Gardens Mall|MFXG4LL/A": {
     "status": "unavailable",
@@ -285,7 +285,7 @@
   },
   "The Gardens Mall|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Waterside Shops|MFXG4LL/A": {
     "status": "unavailable",
@@ -321,7 +321,7 @@
   },
   "Waterside Shops|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Lincoln Road|MFXG4LL/A": {
     "status": "unavailable",
@@ -381,7 +381,7 @@
   },
   "The Galleria|MFXL4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "The Galleria|MFXN4LL/A": {
     "status": "unavailable",
