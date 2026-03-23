@@ -35,6 +35,42 @@
     "status": "available",
     "quote": "Available Today"
   },
+  "Brickell City Centre|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Brickell City Centre|MFXJ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Brickell City Centre|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Brickell City Centre|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Brickell City Centre|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Brickell City Centre|MFXL4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Brickell City Centre|MFXN4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Brickell City Centre|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Brickell City Centre|MFXP4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
   "Aventura|MFXG4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
@@ -284,42 +320,6 @@
     "quote": "Unavailable for Pickup"
   },
   "Lincoln Road|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXN4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Brickell City Centre|MFXP4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   },
