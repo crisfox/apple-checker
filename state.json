@@ -179,6 +179,42 @@
     "status": "available",
     "quote": "Available Today"
   },
+  "Boca Raton|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Boca Raton|MFXJ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Boca Raton|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Boca Raton|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Boca Raton|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Boca Raton|MFXL4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Boca Raton|MFXN4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Boca Raton|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Boca Raton|MFXP4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
   "Wellington Green|MFXG4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
@@ -356,42 +392,6 @@
     "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXN4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Boca Raton|MFXP4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   },
