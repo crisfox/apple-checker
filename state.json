@@ -128,8 +128,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Dadeland|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Dadeland|MFXN4LL/A": {
     "status": "available",
