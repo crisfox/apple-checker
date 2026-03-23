@@ -32,6 +32,42 @@
     "quote": "Unavailable for Pickup"
   },
   "Lincoln Road|MFXP4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Miami Worldcenter|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Miami Worldcenter|MFXJ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Miami Worldcenter|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Miami Worldcenter|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Miami Worldcenter|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Miami Worldcenter|MFXL4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Miami Worldcenter|MFXN4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "Miami Worldcenter|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Miami Worldcenter|MFXP4LL/A": {
     "status": "available",
     "quote": "Available Today"
   },
@@ -215,42 +251,6 @@
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   },
-  "Miami Worldcenter|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Miami Worldcenter|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Miami Worldcenter|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Miami Worldcenter|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Miami Worldcenter|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Miami Worldcenter|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Miami Worldcenter|MFXN4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Miami Worldcenter|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Miami Worldcenter|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
   "Brickell City Centre|MFXG4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
@@ -344,8 +344,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Today"
   },
   "The Galleria|MFXN4LL/A": {
     "status": "unavailable",
