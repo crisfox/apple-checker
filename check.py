@@ -57,15 +57,16 @@ def send_telegram(token, chat_id, message):
 
 
 def send_email(user, password, to, subject, body):
+    recipients = [r.strip() for r in to.split(",")]
     msg = MIMEText(body, "plain", "utf-8")
     msg["Subject"] = subject
     msg["From"] = user
-    msg["To"] = to
+    msg["To"] = ", ".join(recipients)
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(user, password)
-            server.sendmail(user, to, msg.as_string())
-        print("  ✓ Email enviado")
+            server.sendmail(user, recipients, msg.as_string())
+        print(f"  ✓ Email enviado a {len(recipients)} destinatarios")
     except Exception as e:
         print(f"  ✗ Email error: {e}")
 
