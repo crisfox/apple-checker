@@ -200,8 +200,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Boca Raton|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Boca Raton|MFXN4LL/A": {
     "status": "available",
