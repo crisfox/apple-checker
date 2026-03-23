@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T17:10:11Z",
+  "last_updated": "2026-03-23T17:15:12Z",
   "stores": [
     {
       "name": "Lincoln Road",
@@ -512,8 +512,8 @@
         {
           "part": "MFXJ4LL/A",
           "model": "256GB Deep Blue",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
+          "status": "available",
+          "quote": "Available Today"
         },
         {
           "part": "MFXH4LL/A",
