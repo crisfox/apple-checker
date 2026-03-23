@@ -60,8 +60,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Coconut Point|MFXN4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Coconut Point|MFXQ4LL/A": {
     "status": "unavailable",
