@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T16:35:12Z",
+  "last_updated": "2026-03-23T16:40:14Z",
   "stores": [
     {
       "name": "Lincoln Road",
@@ -10,8 +10,8 @@
         {
           "part": "MFXG4LL/A",
           "model": "256GB Silver",
-          "status": "available",
-          "quote": "Available Today"
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
         },
         {
           "part": "MFXJ4LL/A",
@@ -244,8 +244,8 @@
         {
           "part": "MFXP4LL/A",
           "model": "1TB Cosmic Orange",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
+          "status": "available",
+          "quote": "Available Today"
         }
       ]
     },

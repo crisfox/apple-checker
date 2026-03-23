@@ -1,7 +1,7 @@
 {
   "Lincoln Road|MFXG4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Lincoln Road|MFXJ4LL/A": {
     "status": "unavailable",
@@ -140,8 +140,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Gardens Mall|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Today"
   },
   "Miami Worldcenter|MFXG4LL/A": {
     "status": "unavailable",
