@@ -107,42 +107,6 @@
     "status": "available",
     "quote": "Available Today"
   },
-  "Coconut Point|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXN4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXP4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
-  },
   "Miami Worldcenter|MFXG4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
@@ -428,6 +392,42 @@
     "quote": "Unavailable for Pickup"
   },
   "Waterside Shops|MFXP4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXJ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXL4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXN4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXP4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   }
