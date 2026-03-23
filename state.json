@@ -128,8 +128,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Dadeland|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Today"
   },
   "Dadeland|MFXN4LL/A": {
     "status": "available",
@@ -140,8 +140,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Dadeland|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Today"
   },
   "The Falls|MFXG4LL/A": {
     "status": "unavailable",
