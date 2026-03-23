@@ -240,8 +240,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Wellington Green|MFXN4LL/A": {
-    "status": "available",
-    "quote": "Available Tomorrow"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Wellington Green|MFXQ4LL/A": {
     "status": "unavailable",
