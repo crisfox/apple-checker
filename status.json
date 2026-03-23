@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T20:10:13Z",
+  "last_updated": "2026-03-23T20:15:13Z",
   "stores": [
     {
       "name": "Miami Worldcenter",
@@ -244,8 +244,8 @@
         {
           "part": "MFXP4LL/A",
           "model": "1TB Cosmic Orange",
-          "status": "available",
-          "quote": "Available Today"
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
         }
       ]
     },
@@ -536,14 +536,14 @@
         {
           "part": "MFXL4LL/A",
           "model": "512GB Cosmic Orange",
-          "status": "available",
-          "quote": "Available Today"
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
         },
         {
           "part": "MFXN4LL/A",
           "model": "1TB Silver",
-          "status": "available",
-          "quote": "Available Today"
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
         },
         {
           "part": "MFXQ4LL/A",

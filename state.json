@@ -140,8 +140,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Dadeland|MFXP4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "The Falls|MFXG4LL/A": {
     "status": "unavailable",
@@ -308,12 +308,12 @@
     "quote": "Unavailable for Pickup"
   },
   "Waterside Shops|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Waterside Shops|MFXN4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Waterside Shops|MFXQ4LL/A": {
     "status": "unavailable",
