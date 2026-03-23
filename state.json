@@ -276,8 +276,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Gardens Mall|MFXN4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "The Gardens Mall|MFXQ4LL/A": {
     "status": "unavailable",
