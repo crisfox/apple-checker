@@ -56,8 +56,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Wellington Green|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Wellington Green|MFXN4LL/A": {
     "status": "available",
@@ -68,6 +68,42 @@
     "quote": "Unavailable for Pickup"
   },
   "Wellington Green|MFXP4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "The Gardens Mall|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Gardens Mall|MFXJ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Gardens Mall|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Gardens Mall|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Gardens Mall|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Gardens Mall|MFXL4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "The Gardens Mall|MFXN4LL/A": {
+    "status": "available",
+    "quote": "Available Today"
+  },
+  "The Gardens Mall|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Gardens Mall|MFXP4LL/A": {
     "status": "available",
     "quote": "Available Today"
   },
@@ -356,42 +392,6 @@
     "quote": "Unavailable for Pickup"
   },
   "Boca Raton|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXN4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Gardens Mall|MFXP4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   },
