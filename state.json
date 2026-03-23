@@ -5,7 +5,7 @@
   },
   "Miami Worldcenter|MFXJ4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Miami Worldcenter|MFXH4LL/A": {
     "status": "unavailable",
@@ -25,7 +25,7 @@
   },
   "Miami Worldcenter|MFXN4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Miami Worldcenter|MFXQ4LL/A": {
     "status": "unavailable",
@@ -33,11 +33,11 @@
   },
   "Miami Worldcenter|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Brickell City Centre|MFXG4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Brickell City Centre|MFXJ4LL/A": {
     "status": "unavailable",
@@ -93,11 +93,11 @@
   },
   "Aventura|MFXL4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Aventura|MFXN4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Aventura|MFXQ4LL/A": {
     "status": "unavailable",
@@ -105,7 +105,7 @@
   },
   "Aventura|MFXP4LL/A": {
     "status": "available",
-    "quote": "Available Today"
+    "quote": "Available Tomorrow"
   },
   "Dadeland|MFXG4LL/A": {
     "status": "unavailable",
