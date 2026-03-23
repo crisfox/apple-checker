@@ -241,6 +241,22 @@
       color: #fff;
     }
 
+    .run-btn {
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+      white-space: nowrap;
+      background: #0071e3;
+      color: #fff;
+      transition: background 0.15s, opacity 0.15s;
+      margin-left: auto;
+    }
+
+    .run-btn:disabled { opacity: 0.5; cursor: default; }
+
     .empty-state {
       text-align: center;
       padding: 48px 24px;
@@ -279,6 +295,7 @@
   <button class="filter-btn active" onclick="setFilter('soon')" id="f-soon">Hoy o mañana</button>
   <button class="filter-btn" onclick="setFilter('available')" id="f-available">Todos disponibles</button>
   <button class="filter-btn" onclick="setFilter('all')" id="f-all">Ver todo</button>
+  <button class="run-btn" id="run-btn" onclick="triggerRun()">↻ Actualizar</button>
 </div>
 
 <div id="root"><div class="loading">Cargando disponibilidad...</div></div>
@@ -452,6 +469,35 @@ async function load() {
     document.getElementById("root").innerHTML =
       `<div style="padding:24px"><div class="error">Error cargando datos: ${e.message}</div></div>`;
     document.getElementById("last-updated").textContent = "Error";
+  }
+}
+
+async function triggerRun() {
+  const btn = document.getElementById("run-btn");
+  btn.disabled = true;
+  btn.textContent = "Ejecutando...";
+  try {
+    const resp = await fetch(
+      "https://api.github.com/repos/crisfox/apple-checker/actions/workflows/check.yml/dispatches",
+      {
+        method: "POST",
+        headers: {
+          "Authorization": "Bearer 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",
+          "Accept": "application/vnd.github+json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ ref: "main" }),
+      }
+    );
+    if (resp.status === 204) {
+      btn.textContent = "✓ Lanzado";
+      setTimeout(() => { load(); btn.disabled = false; btn.textContent = "↻ Actualizar"; }, 12000);
+    } else {
+      throw new Error("status " + resp.status);
+    }
+  } catch (e) {
+    btn.textContent = "Error";
+    setTimeout(() => { btn.disabled = false; btn.textContent = "↻ Actualizar"; }, 3000);
   }
 }
 
