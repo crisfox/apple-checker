@@ -107,9 +107,17 @@ def notify_all(changes):
     plain_lines = ["iPhone 17 Pro Max — cambio de disponibilidad\n"]
 
     for store, part, model, old_status, new_status, quote in changes:
-        emoji = "✅" if new_status == "available" else "❌"
+        if new_status == "today":
+            emoji = "🔥"
+            label = "DISPONIBLE HOY"
+        elif new_status == "available":
+            emoji = "✅"
+            label = "DISPONIBLE"
+        else:
+            emoji = "❌"
+            label = "AGOTADO"
         line = f"{emoji} <b>{model}</b>\n   📍 {store}\n   {quote}"
-        plain = f"{'DISPONIBLE' if new_status == 'available' else 'AGOTADO'} {model} — {store} — {quote}"
+        plain = f"{label} {model} — {store} — {quote}"
         lines.append(line)
         plain_lines.append(plain)
 
@@ -172,8 +180,13 @@ def main():
             quote = info.get("pickupSearchQuote", "")
             key = f"{store_name}|{part_num}"
 
-            new_state[key] = new_status
-            old_status = state.get(key)
+            new_state[key] = {"status": new_status, "quote": quote}
+            old_entry = state.get(key)
+            # support old state format (plain string)
+            if isinstance(old_entry, str):
+                old_entry = {"status": old_entry, "quote": ""}
+            old_status = old_entry["status"] if old_entry else None
+            old_quote = old_entry["quote"] if old_entry else ""
 
             store_entry["models"].append({
                 "part": part_num,
@@ -187,10 +200,18 @@ def main():
                     print(f"  [INICIAL-DISPONIBLE] {model} en {store_name} ({city}) — {quote}")
                 continue
 
+            store_label = f"{store_name} ({city}, {distance})"
+
             if old_status != new_status:
                 label = "DISPONIBLE" if new_status == "available" else "AGOTADO"
                 print(f"  [{label}] {model} en {store_name} ({city}) — {quote}")
-                changes.append((f"{store_name} ({city}, {distance})", part_num, model, old_status, new_status, quote))
+                changes.append((store_label, part_num, model, old_status, new_status, quote))
+            elif new_status == "available" and old_quote != quote:
+                old_today = "today" in old_quote.lower()
+                new_today = "today" in quote.lower()
+                if not old_today and new_today:
+                    print(f"  [HOY!] {model} en {store_name} ({city}) — {quote}")
+                    changes.append((store_label, part_num, model, "tomorrow", "today", quote))
             else:
                 status_label = "OK" if new_status == "available" else "—"
                 print(f"  [{status_label}] {model} en {store_name}: {new_status}")
