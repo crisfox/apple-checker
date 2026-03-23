@@ -128,8 +128,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Falls|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "The Falls|MFXN4LL/A": {
     "status": "available",
@@ -344,8 +344,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXN4LL/A": {
     "status": "unavailable",

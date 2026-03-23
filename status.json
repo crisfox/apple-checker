@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T17:20:13Z",
+  "last_updated": "2026-03-23T17:25:13Z",
   "stores": [
     {
       "name": "Lincoln Road",
@@ -226,8 +226,8 @@
         {
           "part": "MFXL4LL/A",
           "model": "512GB Cosmic Orange",
-          "status": "available",
-          "quote": "Available Today"
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
         },
         {
           "part": "MFXN4LL/A",
@@ -598,8 +598,8 @@
         {
           "part": "MFXL4LL/A",
           "model": "512GB Cosmic Orange",
-          "status": "available",
-          "quote": "Available Today"
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
         },
         {
           "part": "MFXN4LL/A",
