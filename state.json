@@ -251,42 +251,6 @@
     "status": "available",
     "quote": "Available Today"
   },
-  "Coconut Point|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
-  },
-  "Coconut Point|MFXN4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
-  },
-  "Coconut Point|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "Coconut Point|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
   "Lincoln Road|MFXG4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
@@ -332,8 +296,8 @@
     "quote": "Available Today"
   },
   "Dadeland|MFXH4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Dadeland|MFXK4LL/A": {
     "status": "unavailable",
@@ -380,8 +344,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Today"
   },
   "The Galleria|MFXN4LL/A": {
     "status": "unavailable",
@@ -428,6 +392,42 @@
     "quote": "Unavailable for Pickup"
   },
   "Boca Raton|MFXP4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXJ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXL4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXN4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "Coconut Point|MFXP4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   }
