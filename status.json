@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T18:20:12Z",
+  "last_updated": "2026-03-23T18:25:12Z",
   "stores": [
     {
       "name": "Lincoln Road",
@@ -374,6 +374,68 @@
       ]
     },
     {
+      "name": "Waterside Shops",
+      "city": "Naples",
+      "state": "FL",
+      "distance": "107.73 mi",
+      "models": [
+        {
+          "part": "MFXG4LL/A",
+          "model": "256GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXJ4LL/A",
+          "model": "256GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXH4LL/A",
+          "model": "256GB Cosmic Orange",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXK4LL/A",
+          "model": "512GB Silver",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXM4LL/A",
+          "model": "512GB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXL4LL/A",
+          "model": "512GB Cosmic Orange",
+          "status": "available",
+          "quote": "Available Today"
+        },
+        {
+          "part": "MFXN4LL/A",
+          "model": "1TB Silver",
+          "status": "available",
+          "quote": "Available Today"
+        },
+        {
+          "part": "MFXQ4LL/A",
+          "model": "1TB Deep Blue",
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
+        },
+        {
+          "part": "MFXP4LL/A",
+          "model": "1TB Cosmic Orange",
+          "status": "available",
+          "quote": "Available Today"
+        }
+      ]
+    },
+    {
       "name": "Coconut Point",
       "city": "Estero",
       "state": "FL",
@@ -626,68 +688,6 @@
       "city": "Boca Raton",
       "state": "FL",
       "distance": "36.98 mi",
-      "models": [
-        {
-          "part": "MFXG4LL/A",
-          "model": "256GB Silver",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        },
-        {
-          "part": "MFXJ4LL/A",
-          "model": "256GB Deep Blue",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        },
-        {
-          "part": "MFXH4LL/A",
-          "model": "256GB Cosmic Orange",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        },
-        {
-          "part": "MFXK4LL/A",
-          "model": "512GB Silver",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        },
-        {
-          "part": "MFXM4LL/A",
-          "model": "512GB Deep Blue",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        },
-        {
-          "part": "MFXL4LL/A",
-          "model": "512GB Cosmic Orange",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        },
-        {
-          "part": "MFXN4LL/A",
-          "model": "1TB Silver",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        },
-        {
-          "part": "MFXQ4LL/A",
-          "model": "1TB Deep Blue",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        },
-        {
-          "part": "MFXP4LL/A",
-          "model": "1TB Cosmic Orange",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
-        }
-      ]
-    },
-    {
-      "name": "Waterside Shops",
-      "city": "Naples",
-      "state": "FL",
-      "distance": "107.73 mi",
       "models": [
         {
           "part": "MFXG4LL/A",
