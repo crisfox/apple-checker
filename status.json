@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T22:05:11Z",
+  "last_updated": "2026-03-23T22:10:12Z",
   "stores": [
     {
       "name": "Miami Worldcenter",
@@ -72,8 +72,8 @@
         {
           "part": "MFXG4LL/A",
           "model": "256GB Silver",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
+          "status": "available",
+          "quote": "Available Today"
         },
         {
           "part": "MFXJ4LL/A",
