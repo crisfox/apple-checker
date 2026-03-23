@@ -140,8 +140,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Gardens Mall|MFXP4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Miami Worldcenter|MFXG4LL/A": {
     "status": "unavailable",
@@ -252,8 +252,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Dadeland|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Today"
   },
   "Dadeland|MFXJ4LL/A": {
     "status": "unavailable",
