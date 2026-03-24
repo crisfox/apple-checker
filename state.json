@@ -248,8 +248,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Boca Raton|MFXP4LL/A": {
-    "status": "available",
-    "quote": "Available Tomorrow"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Lincoln Road|MFXG4LL/A": {
     "status": "unavailable",
