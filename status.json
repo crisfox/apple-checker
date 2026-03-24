@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T11:20:11Z",
+  "last_updated": "2026-03-24T11:25:11Z",
   "stores": [
     {
       "name": "Miami Worldcenter",
@@ -146,8 +146,8 @@
         {
           "part": "MFXH4LL/A",
           "model": "256GB Cosmic Orange",
-          "status": "available",
-          "quote": "Available Today"
+          "status": "unavailable",
+          "quote": "Unavailable for Pickup"
         },
         {
           "part": "MFXK4LL/A",
