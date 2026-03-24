@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T01:25:11Z",
+  "last_updated": "2026-03-24T01:30:25Z",
   "stores": [
     {
       "name": "Miami Worldcenter",
@@ -46,8 +46,8 @@
         {
           "part": "MFXN4LL/A",
           "model": "1TB Silver",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
+          "status": "available",
+          "quote": "Available Tomorrow"
         },
         {
           "part": "MFXQ4LL/A",
