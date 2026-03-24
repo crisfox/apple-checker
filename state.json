@@ -272,8 +272,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Lincoln Road|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Tomorrow"
   },
   "Lincoln Road|MFXN4LL/A": {
     "status": "unavailable",
