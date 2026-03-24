@@ -92,8 +92,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Aventura|MFXL4LL/A": {
-    "status": "available",
-    "quote": "Available Tomorrow"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Aventura|MFXN4LL/A": {
     "status": "available",
