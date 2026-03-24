@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T02:20:10Z",
+  "last_updated": "2026-03-24T02:25:11Z",
   "stores": [
     {
       "name": "Miami Worldcenter",
@@ -78,8 +78,8 @@
         {
           "part": "MFXJ4LL/A",
           "model": "256GB Deep Blue",
-          "status": "unavailable",
-          "quote": "Unavailable for Pickup"
+          "status": "available",
+          "quote": "Available Tomorrow"
         },
         {
           "part": "MFXH4LL/A",
