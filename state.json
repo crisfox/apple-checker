@@ -60,8 +60,8 @@
     "quote": "Available Tomorrow"
   },
   "Brickell City Centre|MFXN4LL/A": {
-    "status": "available",
-    "quote": "Available Tomorrow"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Brickell City Centre|MFXQ4LL/A": {
     "status": "unavailable",
