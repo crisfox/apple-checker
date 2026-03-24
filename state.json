@@ -179,6 +179,42 @@
     "status": "available",
     "quote": "Available Tomorrow"
   },
+  "The Galleria|MFXG4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Galleria|MFXJ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Galleria|MFXH4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Galleria|MFXK4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Galleria|MFXM4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Galleria|MFXL4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Galleria|MFXN4LL/A": {
+    "status": "available",
+    "quote": "Available Tomorrow"
+  },
+  "The Galleria|MFXQ4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
+  "The Galleria|MFXP4LL/A": {
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
+  },
   "Boca Raton|MFXG4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
@@ -284,42 +320,6 @@
     "quote": "Unavailable for Pickup"
   },
   "Lincoln Road|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXG4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXJ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXH4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXK4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXM4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXL4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXN4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXQ4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
-  },
-  "The Galleria|MFXP4LL/A": {
     "status": "unavailable",
     "quote": "Unavailable for Pickup"
   },
