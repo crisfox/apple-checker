@@ -4,8 +4,8 @@
     "quote": "Unavailable for Pickup"
   },
   "Miami Worldcenter|MFXJ4LL/A": {
-    "status": "available",
-    "quote": "Available Today"
+    "status": "unavailable",
+    "quote": "Unavailable for Pickup"
   },
   "Miami Worldcenter|MFXH4LL/A": {
     "status": "unavailable",
@@ -212,8 +212,8 @@
     "quote": "Unavailable for Pickup"
   },
   "The Galleria|MFXP4LL/A": {
-    "status": "unavailable",
-    "quote": "Unavailable for Pickup"
+    "status": "available",
+    "quote": "Available Today"
   },
   "Boca Raton|MFXG4LL/A": {
     "status": "unavailable",
